@@ -1,3 +1,27 @@
+#
+
+#def functions
+def ask_and_check(qText, qChk, aUser, aCorr):
+    print(qText) #print question1
+
+    while qChk == 0: #while test is false run loop
+        try:
+            aUser = int(input(">>"))#answer one equal an integer input
+            if aUser == aCorr:# if answer 1 equal 1
+                print ("Ok I got it")#tell user ok answer
+                #grade += 1#change grade by one
+                qChk = 1#escape condish
+            elif 4 >= aUser >= 1:
+                print("Ok I got it")#tell user ok answer
+                qChk = -1 #escape condish
+            elif aUser > 4: #if answer more then 4
+                print ("no answers more then 4 duh") # tell user no answer more then 4
+            else:
+                print ("no answers less then 1 duh") #tell user no answer less then 1
+        except ValueError: #if ValueError
+            print("answer must be a integer 1,2,3 or 4")   #tell user it must be int
+
+
 q1chk = 0 #q1chk is 0 for now
 q2chk = 0 #q2chk is 0 for now
 q3chk = 0 #q3chk is 0 for now
@@ -18,6 +42,7 @@ a7 = 0
 a8 = 0
 a9 = 0
 a10 = 0
+ 
 
 
 # question1 text
@@ -97,44 +122,8 @@ grade = 0 # grade is 0
 
 # run the questions -------------------------------------------------------------------------------------
 
-print(q1) #print question1
-
-while q1chk == 0: #while test is false run loop
-    try:
-        a1 = int(input(">>"))#answer one equal an integer input
-        if a1 == 1:# if answer 1 equal 1
-            print ("Ok I got it")#tell user ok answer
-            grade += 1#change grade by one
-            q1chk = 1#escape condish
-        elif 4 >= a1 >= 1:
-            print("Ok I got it")#tell user ok answer
-            q1chk = -1 #escape condish
-        elif a1 > 4: #if answer more then 4
-            print ("no answers more then 4 duh") # tell user no answer more then 4
-        else:
-            print ("no answers less then 1 duh") #tell user no answer less then 1
-    except ValueError: #if ValueError
-        print("answer must be a integer 1,2,3 or 4")   #tell user it must be int
-
-
-print(q2) #print question1
-
-while q2chk == 0: #while test is false run loop
-    try:
-        a2 = int(input(">>"))#answer one equal an integer input
-        if a2 == 4:# if answer 1 equal 1
-            print ("Ok I got it")#tell user ok answer
-            grade += 1#change grade by one
-            q2chk = 1#escape condish
-        elif 4 >= a2 >= 1:
-            print("Ok I got it")#tell user ok answer
-            q2chk = -1 #escape condish
-        elif a2 > 4: #if answer more then 4
-            print ("no answers more then 4 duh") # tell user no answer more then 4
-        else:
-            print ("no answers less then 1 duh") #tell user no answer less then 1
-    except ValueError: #if ValueError
-        print("answer must be a integer 1,2,3 or 4")   #tell user it must be int
+ask_and_check(q1, q1chk, a1, 1)
+ask_and_check(q2, q2chk, a2, 4)
 
 
 print(q3)
