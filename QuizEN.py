@@ -121,15 +121,15 @@ print(q2) #print question1
 
 while q2chk == 0: #while test is false run loop
     try:
-        a1 = int(input(">>"))#answer one equal an integer input
-        if a1 == 4:# if answer 1 equal 1
+        a2 = int(input(">>"))#answer one equal an integer input
+        if a2 == 4:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q2chk = 1#escape condish
-        elif 4 >= a1 >= 1:
+        elif 4 >= a2 >= 1:
             print("Ok I got it")#tell user ok answer
             q2chk = -1 #escape condish
-        elif a1 > 4: #if answer more then 4
+        elif a2 > 4: #if answer more then 4
             print ("no answers more then 4 duh") # tell user no answer more then 4
         else:
             print ("no answers less then 1 duh") #tell user no answer less then 1
@@ -142,15 +142,15 @@ print(q3)
 
 while q3chk == 0: #while test is false run loop
     try:
-        a1 = int(input(">>"))#answer one equal an integer input
-        if a1 == 3:# if answer 1 equal 1
+        a3 = int(input(">>"))#answer one equal an integer input
+        if a3 == 3:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q3chk = 1#escape condish
-        elif 4 >= a1 >= 1:
+        elif 4 >= a3 >= 1:
             print("Ok I got it")#tell user ok answer
             q3chk = -1 #escape condish
-        elif a1 > 4: #if answer more then 4
+        elif a3 > 4: #if answer more then 4
             print ("no answers more then 4 duh") # tell user no answer more then 4
         else:
             print ("no answers less then 1 duh") #tell user no answer less then 1
@@ -163,15 +163,15 @@ print(q4)
 
 while q4chk == 0: #while test is false run loop
     try:
-        a1 = int(input(">>"))#answer one equal an integer input
-        if a1 == 2:# if answer 1 equal 1
+        a4 = int(input(">>"))#answer one equal an integer input
+        if a4 == 2:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q4chk = 1#escape condish
-        elif 4 >= a1 >= 1:
+        elif 4 >= a4 >= 1:
             print("Ok I got it")#tell user ok answer
             q4chk = -1 #escape condish
-        elif a1 > 4: #if answer more then 4
+        elif a4 > 4: #if answer more then 4
             print ("no answers more then 4 duh") # tell user no answer more then 4
         else:
             print ("no answers less then 1 duh") #tell user no answer less then 1
@@ -183,15 +183,15 @@ print(q5)
 
 while q5chk == 0: #while test is false run loop
     try:
-        a1 = int(input(">>"))#answer one equal an integer input
-        if a1 == 4:# if answer 1 equal 1
+        a5 = int(input(">>"))#answer one equal an integer input
+        if a5 == 4:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q5chk = 1#escape condish
-        elif 4 >= a1 >= 1:
+        elif 4 >= a5 >= 1:
             print("Ok I got it")#tell user ok answer
             q5chk = -1 #escape condish
-        elif a1 > 4: #if answer more then 4
+        elif a5 > 4: #if answer more then 4
             print ("no answers more then 4 duh") # tell user no answer more then 4
         else:
             print ("no answers less then 1 duh") #tell user no answer less then 1
@@ -204,15 +204,15 @@ print(q6)
 
 while q6chk == 0: #while test is false run loop
     try:
-        a1 = int(input(">>"))#answer one equal an integer input
-        if a1 == 3:# if answer 1 equal 1
+        a6 = int(input(">>"))#answer one equal an integer input
+        if a6 == 3:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q6chk = 1#escape condish
-        elif 4 >= a1 >= 1:
+        elif 4 >= a6 >= 1:
             print("Ok I got it")#tell user ok answer
             q6chk = -1 #escape condish
-        elif a1 > 4: #if answer more then 4
+        elif a6 > 4: #if answer more then 4
             print ("no answers more then 4 duh") # tell user no answer more then 4
         else:
             print ("no answers less then 1 duh") #tell user no answer less then 1
@@ -224,15 +224,15 @@ print(q7)
 
 while q7chk == 0: #while test is false run loop
     try:
-        a1 = int(input(">>"))#answer one equal an integer input
-        if a1 == 1:# if answer 1 equal 1
+        a7 = int(input(">>"))#answer one equal an integer input
+        if a7 == 1:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q7chk = 1#escape condish
-        elif 4 >= a1 >= 1:
+        elif 4 >= a7 >= 1:
             print("Ok I got it")#tell user ok answer
             q7chk = -1 #escape condish
-        elif a1 > 4: #if answer more then 4
+        elif a7 > 4: #if answer more then 4
             print ("no answers more then 4 duh") # tell user no answer more then 4
         else:
             print ("no answers less then 1 duh") #tell user no answer less then 1
@@ -244,15 +244,15 @@ print(q8)
 
 while q8chk == 0: #while test is false run loop
     try:
-        a1 = int(input(">>"))#answer one equal an integer input
-        if a1 == 4:# if answer 1 equal 1
+        a8 = int(input(">>"))#answer one equal an integer input
+        if a8 == 4:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q8chk = 1#escape condish
-        elif 4 >= a1 >= 1:
+        elif 4 >= a8 >= 1:
             print("Ok I got it")#tell user ok answer
             q8chk = -1 #escape condish
-        elif a1 > 4: #if answer more then 4
+        elif a8 > 4: #if answer more then 4
             print ("no answers more then 4 duh") # tell user no answer more then 4
         else:
             print ("no answers less then 1 duh") #tell user no answer less then 1
@@ -264,15 +264,15 @@ print(q9)
 
 while q9chk == 0: #while test is false run loop
     try:
-        a1 = int(input(">>"))#answer one equal an integer input
-        if a1 == 4:# if answer 1 equal 1
+        a9 = int(input(">>"))#answer one equal an integer input
+        if a9 == 4:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q9chk = 1#escape condish
-        elif 4 >= a1 >= 1:
+        elif 4 >= a9 >= 1:
             print("Ok I got it")#tell user ok answer
             q9chk = -1 #escape condish
-        elif a1 > 4: #if answer more then 4
+        elif a9 > 4: #if answer more then 4
             print ("no answers more then 4 duh") # tell user no answer more then 4
         else:
             print ("no answers less then 1 duh") #tell user no answer less then 1
@@ -284,15 +284,15 @@ print(q10)
 
 while q10chk == 0: #while test is false run loop
     try:
-        a1 = int(input(">>"))#answer one equal an integer input
-        if a1 == 1:# if answer 1 equal 1
+        a10 = int(input(">>"))#answer one equal an integer input
+        if a10 == 1:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q10chk = 1#escape condish
-        elif 4 >= a1 >= 1:
+        elif 4 >= a10 >= 1:
             print("Ok I got it")#tell user ok answer
             q10chk = -1 #escape condish
-        elif a1 > 4: #if answer more then 4
+        elif a10 > 4: #if answer more then 4
             print ("no answers more then 4 duh") # tell user no answer more then 4
         else:
             print ("no answers less then 1 duh") #tell user no answer less then 1
