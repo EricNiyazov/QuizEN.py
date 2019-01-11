@@ -37,7 +37,7 @@ while q1chk == 0: #while test is false run loop
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q1chk = 1#escape condish
-        elif 4 >= a1 > 1:
+        elif 4 >= a1 >= 1:
             print("Ok I got it")#tell user ok answer
             q1chk = -1 #escape condish
         elif a1 > 4: #if answer more then 4
@@ -63,7 +63,7 @@ while q2chk == 0: #while test is false run loop
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q2chk = 1#escape condish
-        elif 4 >= a1 > 1:
+        elif 4 >= a1 >= 1:
             print("Ok I got it")#tell user ok answer
             q2chk = -1 #escape condish
         elif a1 > 4: #if answer more then 4
@@ -89,7 +89,7 @@ while q3chk == 0: #while test is false run loop
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q3chk = 1#escape condish
-        elif 4 >= a1 > 1:
+        elif 4 >= a1 >= 1:
             print("Ok I got it")#tell user ok answer
             q3chk = -1 #escape condish
         elif a1 > 4: #if answer more then 4
@@ -115,7 +115,7 @@ while q4chk == 0: #while test is false run loop
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q4chk = 1#escape condish
-        elif 4 >= a1 > 1:
+        elif 4 >= a1 >= 1:
             print("Ok I got it")#tell user ok answer
             q4chk = -1 #escape condish
         elif a1 > 4: #if answer more then 4
@@ -141,7 +141,7 @@ while q5chk == 0: #while test is false run loop
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q5chk = 1#escape condish
-        elif 4 >= a1 > 1:
+        elif 4 >= a1 >= 1:
             print("Ok I got it")#tell user ok answer
             q5chk = -1 #escape condish
         elif a1 > 4: #if answer more then 4
@@ -167,7 +167,7 @@ while q6chk == 0: #while test is false run loop
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q6chk = 1#escape condish
-        elif 4 >= a1 > 1:
+        elif 4 >= a1 >= 1:
             print("Ok I got it")#tell user ok answer
             q6chk = -1 #escape condish
         elif a1 > 4: #if answer more then 4
@@ -192,7 +192,7 @@ while q7chk == 0: #while test is false run loop
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q7chk = 1#escape condish
-        elif 4 >= a1 > 1:
+        elif 4 >= a1 >= 1:
             print("Ok I got it")#tell user ok answer
             q7chk = -1 #escape condish
         elif a1 > 4: #if answer more then 4
@@ -217,7 +217,7 @@ while q8chk == 0: #while test is false run loop
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q8chk = 1#escape condish
-        elif 4 >= a1 > 1:
+        elif 4 >= a1 >= 1:
             print("Ok I got it")#tell user ok answer
             q8chk = -1 #escape condish
         elif a1 > 4: #if answer more then 4
@@ -242,7 +242,7 @@ while q9chk == 0: #while test is false run loop
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q9chk = 1#escape condish
-        elif 4 >= a1 > 1:
+        elif 4 >= a1 >= 1:
             print("Ok I got it")#tell user ok answer
             q9chk = -1 #escape condish
         elif a1 > 4: #if answer more then 4
@@ -268,7 +268,7 @@ while q10chk == 0: #while test is false run loop
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
             q10chk = 1#escape condish
-        elif 4 >= a1 > 1:
+        elif 4 >= a1 >= 1:
             print("Ok I got it")#tell user ok answer
             q10chk = -1 #escape condish
         elif a1 > 4: #if answer more then 4
@@ -282,3 +282,14 @@ while q10chk == 0: #while test is false run loop
 print("your grade is",grade,"/ 10") #print the grade
 if grade == 10:
     print ("you did it perfect")
+elif grade == 9:
+    print ("almost perfect oof 9/10")
+elif grade == 8:
+    print ("ok 8/10 very normal")
+elif 7 >= grade >= 6:
+    print ("ok, ok try a little harder")
+elif  5 >= grade >= 1:
+    print ("what a fail go try again")
+elif grade == 0:
+    print ("FFS try guessing next time you will get a better score")
+
