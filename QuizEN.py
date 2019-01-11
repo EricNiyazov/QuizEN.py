@@ -9,30 +9,88 @@ q8chk = 0 #q8chk is 0 for now
 q9chk = 0 #q9chk is 0 for now
 q10chk = 0 #q10chk is 0 for now
 
-q1 = ("what's 9 + 10?") # define question1
-q2 = ("what is the meaning of life the universe and everything?") # define question2
-q3 = ("""if jon is moving at 1 km/hour and his home is 1 km away.
-what's the square root of pi?""")# define question3
-q4 = ("can a match box?")# define question4
-q5 = ("are you going to give Eric N 10$?")# define question5
-q6 = ("rewsna siht noitseuq sdrawkcab?")# define question6
-q7 = ("""if 2+2 is 4 and trains in new york are always late
-what is the distamce from earth to the sun?""")# define question7
-q8 = ("what is the shape of the earth?")# define question8
-q9 = ("what point on earth has the least distance from space?")# define question9
-q10 = ("what is the best icecream flaver?")# define question10
-grade = 0 # grade is 0
-
-print(q1)
-print(" ")
-print("""1. 19 
+# question1 text
+q1 = """
+What's 9 + 10?
+1. 19 
 2. 21 
 3. an old meme that was never funny 
-4. 69420 """) #print question1
+4. 69420""" 
+#question2 text
+q2 = """
+what is the meaning of life the universe and everything?
+1. to live, love and be happy for as long as you can
+2. to spread the human race to as far as we can and keep it alive
+3. there is no meaning :(
+4. 42""" 
+#question3 text
+q3 = """
+if jon is moving at 1 km/hour and his home is 1 km away.
+what's the square root of pi?
+1. 1 hour
+2. I am bad at math
+3. 1.77245385091
+4. 2"""
+#question4 text
+q4 = """
+can a match box?
+1. I dunno
+2. no but a tin can
+3. yes light them up
+4. there is no smoking in the ring"""
+#question5 text
+q5 = """
+are you going to give Eric N 10$?
+1. yes, I will right now or I suck.
+2. no, I will give 20$ or I suck.
+3. no, I will give 50$ or I suck.
+4. no, I will give 100$ right now or I suck."""
+#question6 text
+q6 = """
+rewsna siht noitseuq sdrawkcab?
+1. wwhhhhhaaaaaaaaaaaaaatttttttttt
+2. the program is broken
+3. ko 
+4. sure"""
+#question7 text
+q7 = """
+if 2+2 is 4 and trains in new york are always late
+what is the distamce from earth to the sun?
+1. 92.96 million mi
+2. 92.97 million mi
+3. 92.98 million km
+4. 4 meters"""
+#question8 text
+q8 = """
+what is the shape of the earth?
+1. flat pancake
+2. a donut
+3. a sphere 
+4. a geoid"""
+#question9 text
+q9 = """
+what point on earth has the least distance from space?
+1. mount everest
+2. mount k2
+3. the sky
+4. mount chimborazo"""
+#question10 text
+q10 = """
+what is the best icecream flaver?
+1. chocolate
+2. vanilla
+3. mint choclate chip
+4. pineapple"""
+
+grade = 0 # grade is 0
+
+# run the questions -------------------------------------------------------------------------------------
+
+print(q1) #print question1
 
 while q1chk == 0: #while test is false run loop
     try:
-        a1 = int(input(" "))#answer one equal an integer input
+        a1 = int(input(">>"))#answer one equal an integer input
         if a1 == 1:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
@@ -50,15 +108,10 @@ while q1chk == 0: #while test is false run loop
 
 a1 = 0
 print(q2)
-print("""
-1. to live, love and be happy for as long as you can
-2. to spread the human race to as far as we can and keep it alive
-3. there is no meaning :(
-4. 42""")
 
 while q2chk == 0: #while test is false run loop
     try:
-        a1 = int(input(" "))#answer one equal an integer input
+        a1 = int(input(">>"))#answer one equal an integer input
         if a1 == 4:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
@@ -75,16 +128,11 @@ while q2chk == 0: #while test is false run loop
 
 
 print(q3)
-print("""
-1. 1 hour
-2. I am bad at math
-3. 1.77245385091
-4. 2""")
 a1 = 0
 
 while q3chk == 0: #while test is false run loop
     try:
-        a1 = int(input(" "))#answer one equal an integer input
+        a1 = int(input(">>"))#answer one equal an integer input
         if a1 == 3:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
@@ -101,16 +149,11 @@ while q3chk == 0: #while test is false run loop
 
 
 print(q4)
-print("""
-1. I dunno
-2. no but a tin can
-3. yes light them up
-4. there is no smoking in the ring""")
 a1 = 0
 
 while q4chk == 0: #while test is false run loop
     try:
-        a1 = int(input(" "))#answer one equal an integer input
+        a1 = int(input(">>"))#answer one equal an integer input
         if a1 == 2:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
@@ -127,16 +170,11 @@ while q4chk == 0: #while test is false run loop
 
 
 print(q5)
-print("""
-1. yes, I will right now or I suck.
-2. no, I will give 20$ or I suck.
-3. no, I will give 50$ or I suck.
-4. no, I will give 100$ right now or I suck.""")
 a1 = 0
 
 while q5chk == 0: #while test is false run loop
     try:
-        a1 = int(input(" "))#answer one equal an integer input
+        a1 = int(input(">>"))#answer one equal an integer input
         if a1 == 4:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
@@ -153,16 +191,11 @@ while q5chk == 0: #while test is false run loop
 
 
 print(q6)
-print("""
-1. wwhhhhhaaaaaaaaaaaaaatttttttttt
-2. the program is broken
-3. ko 
-4. sure""")
 a1 = 0
 
 while q6chk == 0: #while test is false run loop
     try:
-        a1 = int(input(" "))#answer one equal an integer input
+        a1 = int(input(">>"))#answer one equal an integer input
         if a1 == 3:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
@@ -178,16 +211,11 @@ while q6chk == 0: #while test is false run loop
         print("answer must be a integer 1,2,3 or 4")   #tell user it must be int
 
 print(q7)
-print("""
-1. 92.96 million mi
-2. 92.97 million mi
-3. 92.98 million km 
-4. I give up""")
 a1 = 0
 
 while q7chk == 0: #while test is false run loop
     try:
-        a1 = int(input(" "))#answer one equal an integer input
+        a1 = int(input(">>"))#answer one equal an integer input
         if a1 == 1:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
@@ -203,16 +231,11 @@ while q7chk == 0: #while test is false run loop
         print("answer must be a integer 1,2,3 or 4")   #tell user it must be int
 
 print(q8)
-print("""
-1. flat pancake
-2. a donut
-3. a sphere 
-4. a geoid""")
 a1 = 0
 
 while q8chk == 0: #while test is false run loop
     try:
-        a1 = int(input(" "))#answer one equal an integer input
+        a1 = int(input(">>"))#answer one equal an integer input
         if a1 == 4:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
@@ -228,16 +251,11 @@ while q8chk == 0: #while test is false run loop
         print("answer must be a integer 1,2,3 or 4")   #tell user it must be int
 
 print(q9)
-print("""
-1. mount everest
-2. mount k2
-3. the sky
-4. mount chimborazo""")
 a1 = 0
 
 while q9chk == 0: #while test is false run loop
     try:
-        a1 = int(input(" "))#answer one equal an integer input
+        a1 = int(input(">>"))#answer one equal an integer input
         if a1 == 4:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
@@ -254,16 +272,11 @@ while q9chk == 0: #while test is false run loop
 
         
 print(q10)
-print("""
-1. chocolate
-2. vanilla
-3. mint choclate chip
-4. pineapple""")
 a1 = 0
 
 while q10chk == 0: #while test is false run loop
     try:
-        a1 = int(input(" "))#answer one equal an integer input
+        a1 = int(input(">>"))#answer one equal an integer input
         if a1 == 1:# if answer 1 equal 1
             print ("Ok I got it")#tell user ok answer
             grade += 1#change grade by one
